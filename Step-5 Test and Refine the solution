@@ -1,0 +1,5 @@
+Scenario        /	Expected Output	       /Actual Output /	Pass or Fail
+Pet eats        /	Log Success	           /Success	      /Pass
+Pet does not eat/	Alert: Food not eaten	 /Alert sent	  /Pass
+Bin empty       /	Alert: Bin empty	     /Alert sent	  /Pass
+Manual override /	Food dispensed	       /Dispensed	    /Pass
