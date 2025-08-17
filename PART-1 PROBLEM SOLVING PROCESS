@@ -1,0 +1,26 @@
+Problem Analysis
+A local animal shelter requires a cost-effective automated pet feeder for cats and dogs that dispenses food at scheduled times, monitors food consumption, and alerts staff if feeding issues occur. The system should be designed for low-cost hardware such as servo motors and simple sensors, but the current task is to design and simulate the logic in plain English before physical implementation.
+Q1- What features must the feeder include?
+Answer:  Time Dispenser sensor.
+                 Quantity sensor.
+                 Servo Motor which dispenses the food based on the info given by the sensors.
+Q2- What are the possible assumptions or limitations?
+	Assumptions:
+1.	 Single type of dry food
+2.	 Feeding times: 8:00 AM & 6:00 PM.
+3.	 Food bin capacity: 3+ days.
+4.	 Staff available for alerts. 
+5.	 Backup battery in case of power outage.
+Q3- What inputs and outputs are needed?
+
+	INPUTS
+1.	Real-time clock
+2.	Food level sensor
+3.	Weight sensor
+4.	Manual override button
+5.	Pet presence sensor (optional) 
+ 
+	Outputs
+1.	Servo motor control 
+2.	Alert notification
+3.	Feeding log
