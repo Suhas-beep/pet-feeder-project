@@ -1,0 +1,12 @@
+STEP-3 Word Code Implementation 
+Start, Set food timer (6:00AM and 2:00Pm)
+ Current time= check clock
+   If current time is feeding time open dispenser
+    If food level sensor -empty bowl
+      Alert sent (“food bowl empty”)
+   Wait 15min 
+     If bowl Weight doesn’t change Then
+      Send alert (“Food not eaten”)
+  End 
+   Log of event with timestamp and status
+End loop
