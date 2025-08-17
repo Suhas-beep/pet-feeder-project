@@ -1,0 +1,12 @@
+Input	                /Type	               /Sample Values	            /Operational Constraints
+Real-time clock 	    / Digital time    	 /6:00AM, 2:00pm	          /±1 min accuracy
+Food level sensor	    /Boolean or Analog	 /Empty, Low, Full	        /±5% tolerance
+Bowl weight sensor    /Analog	             /0g–300g                   /max 500g
+Manual override button/	Boolean	           /Pressed or Not Pressed	  /Staff only
+Pet presence sensor   /	 Boolean	         /Detected or Not detected	/Optional
+
+Output            /	 Type            /      	Sample Values	         /Operational Constraints
+Servo motor signal/	 Electrical pulse/	    Rotate 90°          	   /Rotate 90°
+Alert notification/	 Text/Audio/LED	 /     Food not eaten, Bin empty /<1 min aleart
+Feeding log	      /  Digital record  /  	Date, Time, Status	       /Store 30 days
+   
